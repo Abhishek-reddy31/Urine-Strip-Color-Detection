@@ -42,6 +42,8 @@ The algorithm for detecting colors in the urine strip image involves the followi
 5. **Extract**: Extract the dominant colors using k-means clustering.
 6. **Output**: Return the RGB values of the detected colors.
 
+**Note**: After uploading the image, kindly wait for a few seconds to let it process the image. Since k-means clustering is used, it may take a few seconds to display the results. The best-case scenario is 5 seconds, and the worst-case scenario is 20 seconds to display the results.
+
 ## How to Run the Project
 
 1. **Clone the repository**:
