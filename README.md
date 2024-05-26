@@ -23,6 +23,7 @@ Urine Strip Color Detection is a web application designed to detect colors on ur
 - **OpenCV**: An open-source computer vision and machine learning software library.
 - **NumPy**: A fundamental package for scientific computing with Python.
 - **HTML/CSS/JavaScript**: For creating a responsive and interactive frontend.
+- **Vanilla JavaScript**: Plain JavaScript without any additional libraries or frameworks, used for the frontend.
 
 ## Project Structure
 
@@ -45,7 +46,7 @@ The algorithm for detecting colors in the urine strip image involves the followi
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/urine-strip-color-detection.git
+    git clone https://github.com/Abhishek-reddy31/Urine-Strip-Color-Detection.git
     cd urine-strip-color-detection
     ```
 
