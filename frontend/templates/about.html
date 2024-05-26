@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <div class="navbar">
+        <h1>About Us</h1>
+        <ul>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>About This Project</h1>
+        <p>This project is designed to detect colors on urine strips using image processing techniques. Here are the details:</p>
+        
+        <h2>Tools Used</h2>
+        <ul>
+            <li><strong>Django:</strong> A high-level Python web framework that encourages rapid development and clean, pragmatic design.</li>
+            <li><strong>REST framework:</strong> A powerful and flexible toolkit for building Web APIs.</li>
+            <li><strong>OpenCV:</strong> An open-source computer vision and machine learning software library.</li>
+            <li><strong>NumPy:</strong> A fundamental package for scientific computing with Python.</li>
+            <li><strong>HTML/CSS/JavaScript:</strong> For creating the frontend of the application.</li>
+        </ul>
+        
+        <h2>Algorithm</h2>
+        <p>The algorithm used for detecting colors in the urine strip image involves the following steps:</p>
+        <ol>
+            <li>Upload the image using the frontend form.</li>
+            <li>Save the uploaded image to the server.</li>
+            <li>Read the image using OpenCV.</li>
+            <li>Resize and convert the image to RGB.</li>
+            <li>Extract the dominant colors using k-means clustering.</li>
+            <li>Return the RGB values of the detected colors.</li>
+        </ol>
+        
+        <h2>Frontend Framework</h2>
+        <p>The frontend is created using vanilla JavaScript, HTML, and CSS. It includes interactive elements such as a file upload form and a results display area.</p>
+    </div>
+</body>
+</html>
