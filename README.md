@@ -9,6 +9,33 @@
 
 Urine Strip Color Detection is a web application designed to detect colors on urine strips using image processing techniques. This project leverages the power of Django for the backend, OpenCV for image processing, and vanilla JavaScript for a responsive and interactive frontend.
 
+## Usage
+
+Urine test strips are commonly used to measure various components in the urine, each corresponding to a specific health indicator. A typical urine strip with 10 colors can provide insights into the following:
+
+1. **pH** - Indicates the acidity or alkalinity of the urine. Helps assess kidney health, risk for kidney stones, and can be influenced by diet.
+   
+2. **Protein** - Detects proteins like albumin. High protein levels can indicate kidney damage or disease.
+
+3. **Glucose** - Tests for sugar levels in urine. High glucose may suggest diabetes or issues with blood sugar regulation.
+
+4. **Ketones** - Measures ketone bodies, byproducts of fat metabolism. High levels may indicate uncontrolled diabetes, fasting, or other metabolic issues.
+
+5. **Blood** - Checks for blood in the urine. This may indicate infection, kidney damage, stones, or other conditions.
+
+6. **Leukocytes** - Detects white blood cells, often a sign of infection or inflammation in the urinary tract.
+
+7. **Nitrites** - Indicates the presence of bacteria that can convert nitrates into nitrites, often signaling a urinary tract infection (UTI).
+
+8. **Bilirubin** - Tests for the presence of bilirubin, which is usually broken down in the liver. Elevated levels may suggest liver dysfunction or bile duct problems.
+
+9. **Urobilinogen** - A byproduct of bilirubin breakdown. High levels may indicate liver disease or hemolytic disorders.
+
+10. **Specific Gravity** - Measures urine concentration, providing insights into hydration status and kidney function.
+
+Each color change on the strip corresponds to a different concentration of the measured substance, helping to assess various aspects of kidney, liver, and metabolic health.
+
+
 ## Features
 
 - **Image Upload**: Upload an image of a urine strip and get the color readings.
